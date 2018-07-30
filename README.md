@@ -6,7 +6,7 @@ According to a fact that Spotify has non-static window name, we are looking for 
 We can predict it because it is always "Spotify" when music is paused. That's why we need to pause music for a moment to obtain window handler.
 This program runs in a backgroud, that's why we always checks if mother exe (it is the second part of project) is working. If it's not, then we quit.
 
-The secong part is a program with GUI, that is written in C#. We use it to connect with Arduino. 
+The second part is a program with GUI, that is written in C#. We use it to connect with Arduino. 
 It reads songs name from file and sends it directly to Arduino via USB bus.
 It opens the first program automatically.
 
